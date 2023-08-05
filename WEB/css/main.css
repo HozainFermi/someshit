@@ -66,14 +66,15 @@ min-height: 100vh;
     transform: translate3d(0, calc(var(--scrollTop)/2, 0));
     will-change: transform;
     text-transform: uppercase;
-    font-weight: 300;
+    font-size: 5em;
+    color:rgba(188, 182, 182, 0.811);
     position: relative;
 }
 .main-article_content{
     justify-content: center;
     text-align: center;
     position:relative;
-    top: 100px;;
+    top: 50px;;
 }
 .layers_title{
     font-size: larger;
@@ -82,8 +83,21 @@ min-height: 100vh;
 .layers_caption{
     font-size: large;
 }
+.forma{
+    justify-content: center;
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 170px;
+}
+.friend_link{
+    margin-left: 25px;
+}
+.submit{
+    margin-left: 420px;
+    margin-top: 20px;
+}
 .copy{
     justify-content: left;
     position: relative;
-    top: 110px;
+    top: 39em;
 }
